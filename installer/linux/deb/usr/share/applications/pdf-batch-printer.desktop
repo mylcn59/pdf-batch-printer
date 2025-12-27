@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PDF Batch Printer
+GenericName=PDF Printer
+Comment=Print multiple PDF files in batch
+Exec=/usr/bin/pdf-batch-printer
+Icon=pdf-batch-printer
+Terminal=false
+Categories=Utility;Printing;Qt;
+Keywords=pdf;print;batch;printer;
+StartupNotify=true
+StartupWMClass=pdf-batch-printer

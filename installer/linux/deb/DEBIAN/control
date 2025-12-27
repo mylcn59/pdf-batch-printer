@@ -1,0 +1,15 @@
+Package: pdf-batch-printer
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libxcb-cursor0
+Maintainer: BK Bilgi Teknolojileri <info@bkbilgi.com>
+Description: Cross-platform batch PDF printing application
+ PDF Batch Printer allows you to print multiple PDF files
+ from a folder in alphabetical order with progress tracking.
+ Features include background printing, error handling, and
+ a modern Qt-based user interface.
+ .
+ Developed by BK Bilgi Teknolojileri
+Homepage: https://github.com/mylcn59/pdf-batch-printer
