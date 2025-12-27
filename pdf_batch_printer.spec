@@ -78,15 +78,5 @@ exe = EXE(
     icon='assets/icon.ico' if (is_windows and Path('assets/icon.ico').exists()) else None,
 )
 
-# For Linux, also create a directory bundle (optional)
-if is_linux:
-    coll = COLLECT(
-        exe,
-        a.binaries,
-        a.zipfiles,
-        a.datas,
-        strip=False,
-        upx=True,
-        upx_exclude=[],
-        name='PDFBatchPrinter',
-    )
+# Single-file executable for both platforms
+# No COLLECT needed for onefile mode
