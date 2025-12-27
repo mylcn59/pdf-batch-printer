@@ -75,7 +75,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='assets/icon.ico' if is_windows else None,
+    icon='assets/icon.ico' if (is_windows and Path('assets/icon.ico').exists()) else None,
 )
 
 # For Linux, also create a directory bundle (optional)

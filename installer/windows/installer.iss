@@ -26,7 +26,7 @@ DefaultGroupName={#MyAppName}
 ; Output settings
 OutputDir=..\..\dist\installer
 OutputBaseFilename=PDFBatchPrinter_Setup_{#MyAppVersion}
-SetupIconFile=..\..\assets\icon.ico
+; SetupIconFile=..\..\assets\icon.ico
 
 ; Compression
 Compression=lzma2/ultra64
